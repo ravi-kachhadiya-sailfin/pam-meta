@@ -31,7 +31,7 @@ import { getToolDetail, setFavouriteTool } from 'app/shared/services/toolService
 import { AppStoreContext } from 'app/shared/store/AppStoreProvider';
 import { useAuth } from 'app/features/registration/authService';
 import ToolRating from 'app/tamComponents/ToolsCard/tool-detail/tool-rating/index';
-import { InlineShareButtons } from 'sharethis-reactjs';
+// import { InlineShareButtons } from 'sharethis-reactjs';
 // import * as HSBService from "app/features/HindsightBias/HindsightBiasServices";
 
 
@@ -300,7 +300,7 @@ function HandsightBias() {
                   >
 
                     <Card Card className="share-card-wrapper">
-                      <InlineShareButtons
+                      {/* <InlineShareButtons
                         config={{
                           alignment: 'right',  // alignment of buttons (left, center, right)
                           color: 'social',      // set the color of buttons (social, white)
@@ -341,7 +341,7 @@ function HandsightBias() {
                           // }
                           // username: 'custom twitter handle' // (only for twitter sharing)
                         }}
-                      />
+                      /> */}
                     </Card>
 
                   </Popover>}
