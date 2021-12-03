@@ -1,0 +1,84 @@
+.MuiSvgIcon-root{
+  width: 40px;
+  height: 40px;
+
+}
+.main_radio_group span{
+  font-size: 30px;
+  line-height: normal;
+}
+.main_radio_group label{
+  margin-bottom: 50px;
+  align-items: flex-start;
+}
+
+.MuiTypography-root{
+  margin-left: 57px;
+}
+
+.main_radio_group label .MuiButtonBase-root{
+  padding-top: 0px;
+}
+@media(max-width: 1366px){
+  .main_radio_group span{
+    font-size: 28px;
+  }
+  .main_radio_group label{
+    margin-bottom: 40px;
+  }
+  .MuiTypography-root{
+    margin-left: 40px;
+  }
+  .MuiSvgIcon-root{
+    width: 35px;
+    height: 35px;
+  }
+}
+@media(max-width: 1200px){
+  .main_radio_group span{
+    font-size: 25px;
+  }
+  .main_radio_group label{
+    margin-bottom: 30px;
+  }
+  .MuiTypography-root{
+    margin-left: 30px;
+  }
+  .MuiSvgIcon-root{
+    width: 30px;
+    height: 30px;
+  }
+  .main_radio_group label .MuiButtonBase-root{
+    padding-top: 5px;
+  }
+}
+@media(max-width: 992px){
+  .main_radio_group span{
+    font-size: 20px;
+  }
+  .MuiTypography-root{
+    margin-left: 10px;
+  }
+  .MuiSvgIcon-root{
+    width: 20px;
+    height: 20px;
+  }
+  .main_radio_group label .MuiButtonBase-root{
+    padding-top: 5px;
+  }
+}
+@media(max-width: 767px){
+  .main_radio_group label .MuiButtonBase-root{
+    padding-top: 5px;
+    }
+  .main_radio_group span{
+    font-size: 16px;
+  }
+  .MuiTypography-root{
+    margin-left: 0px;
+  }
+  .MuiSvgIcon-root{
+    width: 16px;
+    height: 16px;
+  }
+}

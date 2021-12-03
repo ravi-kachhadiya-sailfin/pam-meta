@@ -1,0 +1,212 @@
+/* testimonial slider css */
+.content h1 {
+  margin: 0px;
+  margin-bottom: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0099ba;
+  font-size: 28px;
+}
+
+.testimonial {
+  height: 200px;
+  padding: 30px 30px 30px 180px;
+  margin: 0 15px 30px 15px;
+  overflow: hidden;
+  position: relative;
+}
+.testimonial .pic {
+  display: inline-block;
+  width: 158px;
+  height: 158px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+.testimonial .pic img {
+  width: 100%;
+  height: auto;
+}
+.testimonial .description {
+  font-size: 15px;
+  color: #09425a;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.testimonial .title {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #09425a;
+  margin: 0;
+}
+.testimonial .post {
+  display: inline-block;
+  font-size: 17px;
+  color: #09425a;
+}
+.owl-theme .owl-controls .owl-page span {
+  border: 2px solid #a9bdc5;
+  background: transparent;
+  opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page:hover span {
+  border: 2px solid #f19840;
+  background: #f19840;
+}
+
+.owl-buttons {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .testimonial {
+    padding: 20px;
+    text-align: center;
+  }
+  .testimonial .pic {
+    display: block;
+    position: static;
+    margin: 0 auto 15px;
+  }
+}
+/* testimonial slider css */
+
+/* banner slider css */
+.banner-theme {
+  width: 100%;
+  max-width: 535px;
+  float: right;
+  margin-top: 80px;
+  margin-right: -80px;
+}
+.banner-container .banner-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 26px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: right;
+  color: #eff3f4;
+}
+.banner-container .banner-sub-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 46px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  font-weight: 100;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+  margin-top: 12px;
+}
+.banner-container .banner-tag-line {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: right;
+  color: #eff3f4;
+  min-height: 65px;
+}
+
+.sliderContainer {
+  position: relative;
+  width: 100%;
+}
+.sliderContainer .customNavigation {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+}
+.sliderContainer .customNavigation .next {
+  float: right;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #a9bdc5;
+}
+
+.sliderContainer .customNavigation .prev {
+  float: left;
+  margin-left: -20px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #a9bdc5;
+}
+@media only screen and (max-width: 1200px) {
+  .banner-theme {
+    max-width: 450px;
+  }
+  .banner-container .banner-tag-line {
+    min-height: 73px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .banner-container .banner-tag-line {
+    min-height: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .banner-theme {
+    width: 100%;
+    max-width: 100%;
+    float: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin: 0px auto;
+  }
+  .banner-container .banner-title {
+    font-size: 22px;
+    text-align: center;
+  }
+  .banner-container .banner-sub-title {
+    font-size: 40px;
+    text-align: center;
+  }
+  .banner-container .banner-tag-line {
+    font-size: 16px;
+    text-align: center;
+  }
+  .sliderContainer .customNavigation {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+  }
+  .sliderContainer .customNavigation .next {
+    float: right;
+    width: 0;
+    height: 0;
+    margin-right: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #a9bdc5;
+  }
+
+  .sliderContainer .customNavigation .prev {
+    float: left;
+    margin-left: 0px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #a9bdc5;
+  }
+}

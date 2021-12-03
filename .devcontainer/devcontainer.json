@@ -1,0 +1,26 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details.
+{
+  "name": "AS Builder Environment",
+  "image": "registry.med.stanford.edu/irt-as/images/as-builder:latest",
+  "postCreateCommand": "/usr/local/project/start.sh && npm install",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "mgmcdermott.vscode-language-babel",
+    "ms-vscode-remote.remote-containers",
+    "sonarsource.sonarlint-vscode",
+    "wix.vscode-import-cost"
+  ],
+  "settings": {
+    "java.home": "/docker-java-home",
+    "git.ignoreLegacyWarning": true,
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "runArgs": [
+    "--mount",
+    "type=bind,source=${env:HOME}${env:USERPROFILE}/.ssh,destination=/root/.ssh,readonly"
+  ],
+  "appPort": 3000
+}

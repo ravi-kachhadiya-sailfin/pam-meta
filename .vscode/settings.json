@@ -1,0 +1,15 @@
+{
+  "editor.insertSpaces": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.implementationsCodeLens.enabled": true,
+  "java.maven.downloadSources": true,
+  "javascript.validate.enable": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}

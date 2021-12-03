@@ -1,0 +1,121 @@
+.MuiRating-iconEmpty {
+  color: #ffffff !important;
+  stroke: #cfd7d9 !important;
+}
+
+.MuiRating-sizeLarge {
+  margin-top: 3px;
+}
+
+.disabled-color.Mui-disabled{
+  opacity: 1 !important;
+}
+
+.card-star-rating .MuiSvgIcon-root {
+  height: 42px !important;
+  width: 42px !important;
+}
+
+.star-rating .MuiSvgIcon-root {
+  height: 45px !important;
+  width: 45px !important;
+  padding: -2px;
+  /* font-size: inherit; */
+  /* position: 'absolute'; */
+  /* left: 50%;
+  top: 50%; */
+  /* font-size: 30px; */
+}
+
+.date-by-star-rating .MuiSvgIcon-root {
+  height: 39px !important;
+  width: 39px !important;
+  margin-top: 4px !important;
+}
+
+@media(max-width: 1550px){
+  .card-star-rating .MuiSvgIcon-root {
+    height: 36px !important;
+    width: 36px !important;
+  }
+}
+
+@media(max-width: 1366px){
+  .star-rating .MuiSvgIcon-root {
+    height: 42px !important;
+    width: 42px !important;
+    /* padding: 5px; */
+  }
+  
+  .date-by-star-rating .MuiSvgIcon-root {
+    height: 28px !important;
+    width: 28px !important;
+    margin-top: 5px !important;
+  }
+  .without-carousel-card .MuiSvgIcon-root {
+    height: 38px !important;
+    width: 38px !important;
+    margin-top: 0px !important;
+  }
+}
+@media(max-width: 1200px){
+  .star-rating .MuiSvgIcon-root {
+    height: 38px !important;
+    width: 38px !important;
+  }
+
+  .card-star-rating .MuiSvgIcon-root {
+    height: 28px !important;
+    width: 28px !important;
+  }
+ 
+  .date-by-star-rating .MuiSvgIcon-root {
+    height: 28px !important;
+    width: 28px !important;
+    margin-top: 5px !important;
+  }
+
+  .without-carousel-card .MuiSvgIcon-root {
+    height: 38px !important;
+    width: 38px !important;
+    margin-top: 2px !important;
+  }
+}
+
+@media(max-width: 992px){
+  .star-rating .MuiSvgIcon-root {
+    height: 35px !important;
+    width: 35px !important;
+  }
+
+  .card-star-rating .MuiSvgIcon-root {
+    height: 37px !important;
+    width: 37px !important;
+  }
+
+  
+  .date-by-star-rating .MuiSvgIcon-root {
+    height: 18px !important;
+    width: 18px !important;
+  }
+}
+
+@media(max-width: 767px){
+  .MuiRating-sizeLarge {
+    margin-top: 3px;
+  }
+  .star-rating .MuiSvgIcon-root {
+    height: 32px !important;
+    width: 32px !important;
+  }
+
+  .card-star-rating .MuiSvgIcon-root {
+    height: 27px !important;
+    width: 27px !important;
+  }
+  
+  .date-by-star-rating .MuiSvgIcon-root {
+    height: 18px !important;
+    width: 18px !important;
+  }
+}

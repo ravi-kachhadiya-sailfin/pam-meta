@@ -1,0 +1,22 @@
+include:
+  - project: "tds-devops/gitlab-pipeline"
+    file: "ci.yml"
+
+variables:
+  BUILD_TARGET_SET: npm, docker, gcr
+
+.setup_kaniko:
+  tags:
+    - tds-as
+
+.setup_crane:
+  tags:
+    - tds-as
+
+.npm_base_setup:
+  tags:
+    - tds-as-app
+
+.trigger-release:
+  tags:
+    - tds-as

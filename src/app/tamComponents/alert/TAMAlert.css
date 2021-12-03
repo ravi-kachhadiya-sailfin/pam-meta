@@ -1,0 +1,16 @@
+.MuiAlert-root {
+  font-size: "25px";
+  margin-bottom: 20px !important;
+  align-items: flex-start !important;
+}
+
+.MuiAlert-icon {
+  padding: 10px 0px !important;
+}
+
+@media (max-width: 767px) {
+  .MuiAlert-root {
+    font-size: "16px" !important;
+    margin-bottom: 10px !important;
+  }
+}

@@ -1,0 +1,2198 @@
+.c-b {
+  color: #0099ba;
+}
+
+.c-db {
+  color: #09425a;
+}
+
+.c-w {
+  color: white;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.m-50 {
+  margin: 50px;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.mb-0{
+  margin-bottom: 0px !important;
+}
+
+.mt-0{
+  margin-top: 0px !important;
+}
+
+.ml-0{
+  margin-left: 0px !important;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.ml-25{
+  margin-left: 25px !important;
+}
+
+.ml-35{
+  margin-left: 35px !important;
+}
+
+.ml-60{
+  margin-left: 60px !important;
+}
+
+.ml-70{
+  margin-left: 70px !important;
+}
+
+.pt-0{
+  padding-top: 0px !important;
+}
+
+.pt-10{
+  padding-top: 10px !important;
+}
+
+.pl-10{
+  padding-left: 10px !important;
+}
+
+
+.pt-20{
+  padding-top: 20px !important;
+}
+
+.pt-50{
+  padding-top: 50px !important;
+}
+
+.pb-0{
+  padding-bottom: 0px !important;
+}
+
+.p-0{
+  padding: 0px !important;
+}
+
+.pb-10{
+  padding-bottom: 10px !important;
+}
+
+.pb-20{
+  padding-bottom: 20px !important;
+}
+
+.pb-50{
+  padding-bottom: 50px !important;
+}
+
+.font-w-n {
+  font-weight: normal !important;
+}
+
+.font-weight-bold{
+  font-weight: 700 !important;
+}
+
+.font-weight-extra-bold{
+  font-weight: 800 !important;
+}
+
+
+.font-weight-semi-bold{
+  font-weight: 600 !important;
+}
+
+.font-weight-normal{
+  font-weight: 400 !important;
+}
+
+.dark-blue{
+  color: #09425A !important;
+}
+
+.font-italic{
+  font-style: italic !important;
+}
+
+.primary-text{
+  color:#0099BA !important;
+}
+
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+.text-underline {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.MuiDialogContent-dividers{
+  padding: 0px !important;
+}
+
+/* Popup style */
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+.close-icon {
+  content: "x";
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 30px);
+  top: calc(100vh - 85vh - 33px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.cursor-p {
+  cursor: pointer;
+}
+
+.feedback-input-group{
+  padding-top: 18px !important;
+}
+
+.input_group_cs {
+  padding: 8px 0px !important;
+}
+.input_checkbox {
+  margin-top: 70px !important;
+}
+
+.input_checkbox .MuiFormControlLabel-root {
+  margin-left: 0px;
+}
+.align-c {
+  text-align: center;
+}
+
+.main-title {
+  display: inline-block;
+  font-family: "Source Sans Pro";
+  font-size: 110px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0099ba;
+}
+
+.sub-title {
+  font-family: "Source Sans Pro";
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #09425a;
+  margin-top: 42px;
+}
+
+.desc-line {
+  margin-top: 23px;
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: left;
+  color: #09425a;
+  max-width: 90ch;
+}
+
+.sub-desc {
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: left;
+  color: #09425a;
+  margin-top: 28px;
+  max-width: 95ch;
+}
+.sub-desc .sub-desc-line {
+  margin-top: 25px;
+}
+
+/*  */
+.problem_solving_popup .MuiDialog-paper {
+  border-radius: 30px;
+  width: calc(100% - 20px);
+  margin: 0;
+}
+.problem_solving_popup .MuiDialog-paper ::-webkit-scrollbar {
+  width: 7px;
+}
+.problem_solving_popup .MuiDialog-paper ::-webkit-scrollbar-track {
+  background: transparent; 
+}
+.problem_solving_popup .MuiDialog-paper ::-webkit-scrollbar-thumb {
+  background: #A9BDC5; 
+  border-radius: 10px;
+}
+.problem_solving_popup .MuiDialog-paper ::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.problem_solving_popup_card {
+  padding: unset !important;
+}
+.problem_solving_popup_card p {
+  margin-bottom: 0;
+}
+@media (max-width: 1366px) {
+  .problem_solving_popup .MuiDialog-paper {
+    border-radius: 20px;
+  }
+}
+/*  */
+
+@media (min-width: 1281px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 480px) {
+  .main-title {
+    font-size: 45px;
+    line-height: 0.89;
+    letter-spacing: -0.9px;
+  }
+
+  .desc-line {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.29;
+    max-width: 51ch;
+  }
+
+  .sub-title {
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 1.22;
+  }
+
+  .sub-desc {
+    font-size: 14px;
+    line-height: 1.29;
+    margin-top: 6px;
+  }
+
+  .sub-desc .sub-desc-line {
+    margin-top: 7px;
+  }
+}
+
+.percentData {
+  color: #09425a;
+  margin-left: 80% !important;
+  font-size: 30px !important;
+  font-weight: bold !important;
+}
+.MuiDialog-paperWidthSm {
+  min-width: 60% !important;
+}
+
+.MuiPickersModal-dialogRoot{
+  min-width: unset !important;
+}
+.MuiTab-root {
+  width: 50%;
+  max-width: 2000px !important;
+}
+
+.card-number {
+  background-color: #a9bdc5;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #eff3f4;
+  margin-right: 12px;
+  padding: 2px 8px;
+  display: inline-block;
+}
+.personalized_popup {
+  position: absolute !important;
+}
+.personalized_popup .MuiPaper-root{
+  max-width: 1070px;
+  border-radius: 30px;
+  margin: 100px auto 0 auto;
+  overflow-y: unset;
+  max-height: unset;
+}
+.personalized_popup .MuiDialog-scrollPaper{
+ display: unset;
+}
+.personalized_popup .personalized_popup_wrapper{
+    padding: 80px 80px 60px 80px !important;
+}
+.personalized_popup .personalized_popup_wrapper .personalized_bold{
+  color: #09425A;
+}
+.personalized_popup .personalized_popup_wrapper{
+  overflow-y: unset;
+}
+
+.personalized_popup .personalized_popup_wrapper a{
+  color: #0099BA;
+}
+.personalized_popup .personalized_popup_wrapper p{
+  margin-left: 0px;
+}
+.personalized_popup_title{
+  font-size: 30px;
+  color: #09425A;
+  margin-bottom: 25px;
+}
+.personalized_popup_text{
+  font-size: 25px;
+  line-height:32px;
+  color: #09425A;
+  margin-bottom: 25px;
+}
+
+.main_help_link{
+  margin-bottom: 50px;
+}
+
+.reminder-text{
+  margin-top: 15px;
+  margin-bottom:25px;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  text-align: left;
+  color: #A9BDC5;
+}
+
+
+@media (max-width: 1366px) {
+  .personalized_popup_title{
+    font-size: 25px;
+    line-height:30px;
+    margin-bottom: 25px;
+  }
+
+  .reminder-text{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .personalized_popup .personalized_popup_wrapper{
+    padding: 80px 80px 50px 80px !important;
+  }
+
+  .personalized_popup_text{
+    font-size: 20px;
+    line-height:30px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 1200px) {
+  .personalized_popup .MuiPaper-root{
+    margin: 100px auto 0 auto;
+    max-width: calc(100% - 20px);
+  }
+
+  .reminder-text{
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  .input_checkbox {
+    margin-top: 58px !important;
+  }
+  .personalized_popup_title{
+    font-size: 20px;
+    line-height:26px;
+    margin-bottom: 25px;
+  }
+  .personalized_popup .personalized_popup_wrapper{
+    font-size: 20px;
+  }
+  .personalized_popup_text{
+    font-size: 18px;
+    line-height:26px;
+    margin-bottom: 25px;
+  }
+  .personalized_popup .personalized_popup_wrapper{
+    padding: 70px 70px 40px 70px !important;
+  }
+}
+
+.normal-subtitle-gray{
+  color: #A9BDC5;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 58px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.normal-primary-text{
+  color:#09425A;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  margin-bottom: 27px;
+}
+
+.normal-primary-text a{
+  color: #0099ba;
+}
+
+.bold-primary-sub-title{
+  color: #09425A;
+  margin-top: 52px;
+  margin-bottom: 27px;
+  font-size: 32px;
+  font-weight: 700;
+  font-stretch: bold;
+  line-height: 32px;
+  text-align: left;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.bold-primary-sub-title-pop-up{
+  color: #09425A;
+  margin-top: 52px;
+  margin-bottom: 27px;
+  font-size: 30px;
+  font-weight: 700;
+  font-stretch: bold;
+  line-height: 32px;
+  text-align: left;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.semi-sub-title{
+  margin-top: 40px !important;
+  margin-bottom: 22px !important;
+}
+
+.bold-primary-sub-title-tnc{
+  color: #0099BA;
+  margin-top: 60px;
+  margin-bottom: 25px;
+  font-size: 38px;
+  font-weight: 700;
+  font-stretch: bold;
+  text-align: left;
+  line-height: 32px;
+  
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.paragraph-margin{
+  padding-left: 35px;
+}
+
+.member-card{
+  margin-top: 35px;
+}
+
+.member-card img{
+  width: 196px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.member-details{
+  font-size: 20px !important;
+  margin-bottom: 0px !important;
+}
+
+.member-details-card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.health-member-details-card{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+
+.innovation-sub-deatils{
+  margin: 62px 0px !important;
+}
+
+.healthcare-member-card{
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.healthcare-member-card img{
+  width: 140px;
+  height: auto;
+}
+
+.healthcare-member-card div{
+  margin-left: 56px;
+  margin-bottom: 0px;
+}
+
+.mobile-view-winnig-team{
+  display:none;
+}
+
+.desktop-view-winnig-team{
+  display: contents;
+}
+
+.about-hr-line{
+  margin-bottom:0px !important;
+}
+
+.salfin-logo img{
+  width: 213px;
+  height: auto;
+
+  margin-top: 20px;
+}
+
+.design-logo img{
+  /* width: 140px;
+  height: auto; */
+  margin-top: 20px;
+}
+
+.design-logo img:last-child{
+  margin-left: 47px;
+  /* width: 120px;
+  height: 150px; */
+}
+
+
+.info_tooltip{
+  font-size: 18px;
+  line-height: 22px;
+}
+.info_icon{
+  width: 31px;
+  height: 31px;
+}
+ .progress_bar {
+  margin-left: auto;
+  box-shadow: 0px 20px 60px #3e3e3e1f;
+    border-radius: 100%;
+}
+.progress_bar .MuiCircularProgress-root{
+  width: 178px !important;
+  height : 178px !important;
+  background: #f5fbff;
+  border-radius: 100%;
+}
+.progress_bar .MuiCircularProgress-root svg{
+  width: 178px;
+  height : 178px;
+}
+.progress_bar .MuiCircularProgress-root svg .MuiCircularProgress-circle{
+  stroke-linecap: round;
+}
+.progress_bar .MuiBox-root{
+  width: 178px;
+  height : 178px;
+  position: absolute;
+}
+.progress_bar{
+  width: 178px !important;
+  height : 178px !important;
+}
+.progress_bar .MuiBox-root .percentData{
+  margin-left: auto !important;
+  margin-right: auto;
+}
+.click_button.click_button_circle{
+  margin-top: 10px !important;
+  margin-bottom: 0  !important;
+  text-align: right;
+  
+}
+.click_button.click_button_circle span{
+  font-size: 20px !important;
+}
+
+.no-Tool-found{
+  padding: 40px 0;
+  color: #0099ba;
+  text-align: center;
+}
+.no-Tool-found span{
+  font-size: 25px;
+}
+
+
+.scroll_down  {
+  position: absolute;
+  left: 50%;
+  bottom: 70px;
+}
+
+.scroll_down a {
+  padding-top: 60px;
+}
+.scroll_down a span {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb04 2s infinite;
+  animation: sdb04 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb04 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+}
+@keyframes sdb04 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+}
+
+.progress_bar_wrapper{
+  padding-top: 36px !important;
+}
+.chart_header .MuiSelect-icon{
+  right: 15px;
+}
+.chart_header .MuiSelect-root {
+  font-size: 25px;
+  line-height: normal;
+}
+
+
+/* ---------------------------------- input --------------------------------- */
+input {
+  height: 66px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 37px;
+  background-color: #eff3f4;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  margin-top: 6px;
+  border: solid 1px transparent;
+  padding: 0px 30px;
+}
+@media(max-width: 1366px){
+  .input{
+    padding: 0px 25px;
+  }
+}
+@media(max-width: 992px){
+  .input{
+    padding: 0px 15px;
+  }
+
+  .login_scroll_down{
+    bottom: 100px !important;
+  }
+  
+}
+@media(max-width: 768px){
+  .login_scroll_down{
+    bottom: 120px !important;
+  }
+  
+}
+@media(max-width: 767px){
+  .input{
+    height: 42px;
+    font-size: 15px;
+  }
+
+  .reminder-text{
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+}
+.input:hover,
+.input:focus {
+  border: solid 1px #0099ba;
+}
+@media(max-width: 1366px){
+  .input{
+    height: 50px;
+   font-size: 18px;
+  }
+}
+/* ---------------------------------- input --------------------------------- */
+
+
+
+/* --------------------------------- alerts --------------------------------- */
+.MuiAlert-standardSuccess {
+  color: rgb(30, 70, 32);
+  background-color: rgb(216 247 216);
+}
+.MuiAlert-root{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px !important;
+}
+.MuiAlert-icon svg{
+  width: 25px;
+  height: 25px;
+}
+.alert-message{
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+/* --------------------------------- alerts --------------------------------- */
+.que_card [data-type="radio"] {
+    margin-top: 30px !important;
+  
+}
+
+.menu_dropdown_wrapper .MuiPopover-paper{
+  border-radius:20px;
+  right: 15%;
+  left: unset !important;
+}
+
+
+.example_radio  .MuiFormControlLabel-root .MuiSvgIcon-root {
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.example_radio  .MuiFormControlLabel-root .MuiTypography-root {
+  font-size: 20px;
+  line-height: 27px;
+  margin-left: 12px;
+  font-weight: 600;
+}
+
+.example_radio  .MuiFormControlLabel-root {
+  margin-left: 0px;
+  margin-right: 72px;
+}
+.example_radio .MuiFormControlLabel-root .MuiButtonBase-root {
+  padding: 0px;
+}
+.reminder_main{
+  width: auto !important;
+}
+.popup_card_reminder{
+  padding: 45px;
+}
+
+.reminder_main .MuiInputBase-root {
+  width: available;
+  border-bottom: none !important;
+}
+/* .reminder_main .MuiInputAdornment-root{
+  background-color: #eff3f4;
+  height: 50px;
+  margin: 5px 0px 0px 0px;
+  max-height: none;
+} */
+
+ .reminder_main .MuiFormLabel-root {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #09425a;
+    width: 100%;
+  }
+
+ .reminder_main .MuiFormLabel-root.Mui-focused {
+    color: #09425a;
+  }
+
+ .reminder_main .MuiFormHelperText-root {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    text-align: left;
+    color: #A9BDC5;
+
+    
+  }
+
+  @media(max-width: 1366px){
+    .reminder_main .MuiFormHelperText-root {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    }
+    @media(max-width: 1200px){
+      .reminder_main .MuiFormHelperText-root {
+      font-size: 16px;
+      margin-top: 8px;
+      }
+    }
+
+    @media(max-width: 767px){
+      .reminder_main .MuiFormHelperText-root {
+      font-size: 12px;
+      margin-top: 4px;
+      }
+    }
+
+.reminder_main  .MuiFormHelperText-root.Mui-error {
+    color: #f19840;
+  }
+
+.reminder_main  .MuiFormLabel-root.Mui-error {
+    color: #f19840;
+  }
+
+.reminder_main  input {
+    height: 66px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 37px;
+    background-color: #eff3f4;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    margin-top: 6px;
+    border: solid 1px transparent;
+    padding: 0px 30px;
+}
+
+
+.reminder_main  input:hover, .reminder_main  input:focus {
+  border: solid 1px #0099ba;
+}
+
+.reminder-text-field-title{
+  margin-left: 0px !important;
+}
+
+
+@media(max-width: 1366px){
+  .reminder_main  input {
+    height: 50px;
+    font-size: 18px;
+    padding: 0px 25px;
+  }
+}
+
+@media(max-width: 992px){
+  .reminder_main  input {
+    height: 42px;
+    font-size: 15px;
+    padding: 0px 15px;
+  }
+}
+@media(max-width: 767px){
+  .reminder_main  input {
+    height: 42px;
+    font-size: 15px;
+  }
+}
+
+/* .reminder_main .date-field input{
+  border-radius: 37px 0px 0px 37px !important;
+} */
+
+.reminder-text-field-container{
+  padding-bottom: 20px;
+}
+.remainder_maion_text {
+  text-align: left;
+  color: #0099BA;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+  margin-bottom: 40px;
+  margin-top: 5px;
+
+}
+.reminder_close
+{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+  background-color: unset;
+cursor: pointer;
+
+}
+.reminder_addcard
+{
+  margin-top: 30px !important;
+  min-height: 70px !important;
+}
+/* donate card */
+
+.donate-card .MuiDialog-paperWidthSm {
+  border-radius: 30px;
+}
+.donate-card .MuiDialogContent-dividers, .donate-text{
+  padding: 60px 55px !important;
+}
+.donate-img img {
+  position: absolute;
+  background-color: unset;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+::-webkit-input-placeholder { /* Edge */
+  color: #A9BDC5;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  color: #A9BDC5;
+}
+
+::placeholder {
+  color: #A9BDC5;
+}
+
+
+.luke_card .problem_solving_text .card-selection li {
+  margin: 0 19px !important;
+}
+
+.popup_card .MuiRating-sizeLarge{
+  margin-top: 20px !important;
+}
+.MuiDialogContent-dividers{
+  padding: 0px !important;
+}
+
+
+.MuiDialogContent-root:first-child {
+  padding-top: 0px;
+}
+
+@media(max-width: 1366px){
+  .popup_card_reminder{
+    width: auto !important;
+    padding: 40px;
+  }
+  .normal-subtitle-gray{
+    margin-bottom: 52px;
+    font-size: 18px;
+  }
+  .normal-primary-text{
+    margin-bottom: 24px;
+    font-size:22px;
+    line-height: 30px;
+  }
+  .bold-primary-sub-title{
+    margin-top: 44px;
+    margin-bottom: 25px;
+    font-size:30px;
+    line-height: 30px;
+  }
+  .bold-primary-sub-title-pop-up{
+    margin-top: 44px;
+    margin-bottom: 25px;
+    font-size:26px;
+    line-height: 30px;
+  }
+  .bold-primary-sub-title-tnc{
+    margin-top: 55px;
+    margin-bottom: 22px;
+    font-size: 34px;
+    line-height: 30px;
+  }
+  .paragraph-margin{
+    padding-left: 30px;
+  }
+  .semi-sub-title{
+    margin-top: 32px !important;
+    margin-bottom: 18px !important;
+  }
+  .info_icon{
+    width: 28px;
+    height: 28px;
+  }
+  .remainder_maion_text 
+  {
+      font-size: 33px;
+      line-height: 40px;
+      
+  }
+  .reminder_close
+  {
+    top: 15px;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+  }
+  .reminder_addcard
+  {
+    margin-top: 25px !important;
+    min-height: 50px !important;
+  }
+
+  .reminder_addcard  .MuiButton-label
+  {
+     font-size: 22px;
+  }
+  .donate-card .MuiDialogContent-dividers, .donate-text{
+    padding: 50px 45px !important;
+  }
+  .donate-img img {
+    top: 15px;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media(max-width: 1200px){
+  .popup_card_reminder{
+    padding: 35px;
+  }
+  
+  .example_radio  .MuiFormControlLabel-root .MuiTypography-root {
+    font-size: 18px;
+  }
+  .example_radio  .MuiFormControlLabel-root .MuiSvgIcon-root {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .normal-subtitle-gray{
+    margin-bottom: 45px;
+    font-size: 16px;
+  }
+  .normal-primary-text{
+    margin-bottom: 21px;
+    font-size:20px;
+    line-height: 26px;
+  }
+  .bold-primary-sub-title{
+    margin-top: 35px;
+    margin-bottom: 22px;
+    font-size:26px;
+    line-height: 29px;
+  }
+  .bold-primary-sub-title-pop-up{
+    margin-top: 35px;
+    margin-bottom: 22px;
+    font-size:24px;
+    line-height: 29px;
+  }
+  .bold-primary-sub-title-tnc{
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 29px;
+  }
+  .paragraph-margin{
+    padding-left: 25px;
+  }
+  .semi-sub-title{
+    margin-top: 28px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .info_icon{
+    width: 24px;
+    height: 24px;
+  }
+  .remainder_maion_text 
+  {
+      font-size: 27px;
+      line-height: 35px;
+      
+  }
+  .reminder_close
+  {
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+  }
+  .reminder_addcard
+  {
+    margin-top: 20px !important;
+    min-height: 40px !important;
+  }
+  .reminder_addcard  .MuiButton-label
+  {
+     font-size: 18px;
+  }
+  .donate-card .MuiDialogContent-dividers, .donate-text {
+    padding: 40px 35px 20px 35px !important;
+  }
+  .donate-img img {
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media(max-width: 992px){
+  .popup_card_reminder{
+    padding: 30px;
+  }
+
+  .luke_card .problem_solving_text .card-selection li {
+    margin: 0 14px !important;
+  }
+  .luke_card .problem_solving_text .card-selection li .selection-image{
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .example_radio  .MuiFormControlLabel-root .MuiTypography-root {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .example_radio  .MuiFormControlLabel-root .MuiSvgIcon-root {
+    width: 23px !important;
+    height: 23px !important;
+  }
+
+  
+/* .scroll_down  {
+ display: none;
+} */
+.chart_header .chart-dropdown {
+  width: 50% !important;
+    height: 50px !important;
+}
+  .normal-subtitle-gray{
+    margin-bottom: 36px;
+    font-size: 14px;
+  }
+  .normal-primary-text{
+    margin-bottom: 18px;
+    font-size:18px;
+    line-height: 22px;
+  }
+  .bold-primary-sub-title{
+    margin-top: 30px;
+    margin-bottom: 18px;
+    font-size:22px;
+    line-height: 27px;
+  }
+  .bold-primary-sub-title-pop-up{
+    margin-top: 30px;
+    margin-bottom: 18px;
+    font-size:20px;
+    line-height: 27px;
+  }
+  .bold-primary-sub-title-tnc{
+    margin-top: 35px;
+    margin-bottom: 18px;
+    font-size: 25px;
+    line-height: 27px;
+  }
+  .paragraph-margin{
+    padding-left: 20px;
+  }
+  .semi-sub-title{
+    margin-top: 22px !important;
+    margin-bottom: 12px !important;
+  }
+  .personalized_popup .personalized_popup_wrapper{
+    font-size: 16px;
+  }
+  .personalized_popup_title{
+    font-size: 16px;
+    line-height:22px;
+    margin-bottom: 22px;
+  }
+  .personalized_popup_text{
+    font-size: 16px;
+    line-height:22px;
+    margin-bottom: 22px;
+  }
+
+  .member-card{
+    text-align: center;
+    margin-top: 28px;
+    padding: 0px 9%;
+  }
+
+  .member-card div{
+    text-align: center;
+  }
+
+  .member-details{
+    font-size: 14px !important;
+    line-height: 18px !important;
+  }
+
+  .member-card img{
+    width: 160px;
+    height: auto;
+    margin-bottom: 18px;
+  }
+
+  .text-align-center{
+    text-align: center;
+  }
+
+  .healthcare-member-card{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+  }
+
+  .healthcare-member-card div{
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+
+  .healthcare-member-card img{
+    width: 100px;
+    height: auto;
+  }
+  
+  .innovation-sub-deatils{
+    margin-top: 16px !important;
+    margin-bottom: 38px !important;
+  }
+
+  .design-text{
+    margin-top: 47px !important;
+  }
+
+  .mobile-view-winnig-team{
+    display: block;
+  }
+  .desktop-view-winnig-team{
+    display: none;
+  }
+  .progress_bar {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .click_button.click_button_circle {
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+    text-align: right;
+}
+  .click_button.click_button_circle span{
+    font-size: 16px !important;
+  }
+
+  .info_icon{
+    width: 22px;
+    height: 22px;
+  }
+  .progress_bar_wrapper{
+    padding-top: 30px !important;
+  }
+
+
+
+  .progress_bar .MuiCircularProgress-root{
+    width: 138px !important;
+    height : 138px !important;
+    background: #f5fbff;
+    border-radius: 100%;
+  }
+  .progress_bar .MuiCircularProgress-root svg{
+    width: 138px;
+    height : 138px;
+  }
+  .progress_bar .MuiCircularProgress-root svg .MuiCircularProgress-circle{
+    stroke-linecap: round;
+  }
+  .progress_bar .MuiBox-root{
+    width: 138px;
+    height : 138px;
+    position: absolute;
+  }
+  .progress_bar{
+    width: 138px !important;
+    height : 138px !important;
+    margin-right: 0px;
+  }
+  .reminder_close
+  {
+    top: 10px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+  }
+  .remainder_maion_text 
+  {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 20px;
+  }
+  .reminder_addcard
+{
+  margin-top: 15px !important;
+  min-height: 35px !important;
+  
+}
+.reminder_addcard  .MuiButton-label
+{
+   font-size: 14px;
+}
+
+  
+}
+
+@media(max-width: 767px){ 
+
+  .popup_card_reminder{
+    padding: 25px;
+  }
+  .que_card [data-type="radio"] {
+    margin-top: 10px !important;
+  
+}
+
+  .chart_header .MuiInputBase-root {
+    padding: 0 15px;
+  }
+  .chart_header .MuiSelect-root {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .click_button.click_button_circle {
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+    text-align: center;
+}
+
+  .progress_bar_wrapper{
+    display: none;
+  }
+  .normal-subtitle-gray{
+    margin-bottom: 29px;
+    font-size: 12px;
+  }
+  .normal-primary-text{
+    margin-bottom: 15px;
+    font-size:14px;
+    line-height: 18px;
+  }
+  .bold-primary-sub-title{
+    margin-top: 21px;
+    margin-bottom: 14px;
+    font-size:18px;
+    line-height: 25px;
+  }
+  .bold-primary-sub-title-pop-up{
+    margin-bottom: 18px;
+    font-size:18px;
+    line-height: 20px;
+  }
+  .bold-primary-sub-title-tnc{
+    margin-top: 25px;
+    margin-bottom: 17px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .paragraph-margin{
+    padding-left: 12px;
+  }
+  .semi-sub-title{
+    margin-top: 17px !important;
+    margin-bottom: 9px !important;
+  }
+
+  .personalized_popup .MuiPaper-root {
+    max-width: calc(100% - 20px);
+  }
+
+  .input_checkbox {
+    margin-top: 30px !important;
+  }
+  .personalized_popup .MuiPaper-root{
+    border-radius: 20px;
+  }
+  .personalized_popup .personalized_popup_wrapper{
+    padding: 60px 20px 50px 20px !important;
+    font-size: 14px;
+  }
+  .personalized_popup_title{
+    font-size: 18px;
+    line-height:20px;
+    margin-bottom: 22px;
+  }
+  .personalized_popup_text{
+    font-size: 14px;
+    line-height:18px;
+    margin-bottom: 22px;
+  }
+
+  .member-card{
+    margin-top: 25px;
+    padding: 0px 9%;
+  }
+
+  .member-details{
+    font-size: 12px !important;
+    line-height: 15px !important;
+  }
+
+  .member-card img{
+    width: 151px;
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  .healthcare-member-card{
+    margin-top: 40px;
+  }
+
+  .healthcare-member-card div{
+    margin-left: 0px;
+    margin-top: 14px;
+  }
+
+  .healthcare-member-card img{
+    width: 88px;
+    height: auto;
+  }
+  
+  .innovation-sub-deatils{
+    margin-top: 14px !important;
+    margin-bottom: 35px !important;
+  }
+
+  .design-text{
+    margin-top: 47px !important;
+  }
+
+  .design-logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+  }
+
+  .salfin-logo img{
+    width: 152px;
+    height: auto;
+  
+    margin-top: 5px;
+  }
+  
+  .design-logo img{
+    width: 120px;
+    height: 163px;
+    margin-top: 10px;
+  }
+  
+  .design-logo img:last-child{
+    margin-left: 47px;
+  }
+
+  .info_icon{
+    width: 18px;
+    height: 18px;
+  }
+  .remainder_maion_text 
+  {
+      font-size: 18px;
+      line-height: 25px;
+      
+  }
+  .reminder_close
+  {
+   
+    width: 25px;
+    height: 25px;
+  }
+ .donate-card .MuiDialog-paperWidthSm {
+    border-radius: 20px;
+  }
+  .donate-card .MuiDialogContent-dividers, .donate-text {
+    padding: 12px 17px 18px 17px !important;
+  }
+  .donate-img img {
+    top: 10px;
+    right: 8px;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/* add new css by arun on 12-10-21 */
+.filter-dropdown .MuiPaper-root{
+  max-height: calc(80vh - 70px) !important;
+}
+@media(max-width:992px){
+  .filter-dropdown .MuiPaper-root{
+    max-height: calc(95vh - 70px) !important;
+  }
+}
+/* add new css by arun on 13-10-21 */
+.fill-your-bucket-header {
+  display: flex;
+  margin-bottom: 60px;
+}
+.fill-tree-cricle .fill-tree{
+  height: 300px;
+  width: 300px;
+  /* padding: 70px; */
+  text-align: center;
+  position: relative;
+  
+}
+.fill-tree-cricle{
+  text-align:center;
+}
+.small_bucket{
+  position: relative;
+  box-shadow: 0px 20px 60px #00000029;
+  background: #fff;
+  border-radius: 50%;
+}
+.fill-tree-cricle .small_bucket::before{
+  content: '';
+  background-image: url(../shared/assets/images/bucket/bucket-small.svg);
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  bottom: 15px;
+  left: 10px;
+  background-size: contain;
+  z-index: 2;
+  background-repeat: no-repeat;
+
+}
+.fill-your-tree{
+  padding-left: 200px;;
+}
+.fill-time{
+  margin-top: 15px !important;  
+}
+
+.fill-tree-counter {
+  position: absolute;
+  margin-bottom: 0;
+  background-color: #0099ba;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  color: #fff;
+  font-size: 20px;
+  bottom: 9px;
+  left: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+@media(max-width:1366px){
+  .fill-your-tree {
+    padding-left: 150px;
+  }
+  .fill-your-bucket-header {
+    margin-bottom: 70px;
+  }
+}
+@media(max-width:1200px){
+  .fill-your-tree {
+    padding-left: 100px;
+  }
+  .fill-tree-cricle .fill-tree {
+    height: 250px;
+    width: 250px;
+    /* padding: 50px; */
+  }
+  .fill-tree-cricle .small_bucket::before {
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+    left: 15px;
+  }
+  .fill-tree-counter {
+    bottom: 2px;
+    left: 55px;
+  }
+  .fill-your-bucket-header {
+    margin-bottom: 60px;
+  }
+}
+@media(max-width:992px){
+  .fill-tree-cricle .small_bucket::before {
+    width: 40px;
+    height: 40px;
+    bottom: 4px;
+    left: 15px;
+  }
+  .fill-your-tree {
+    padding-left: 50px;
+  }
+  .fill-tree-cricle .fill-tree {
+    height: 200px;
+    width: 200px;
+    /* padding: 42px; */
+  }  
+  .fill-tree-counter {
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    bottom: 0px;
+    left: 47px;
+  }
+  .fill-your-bucket-header {
+    margin-bottom: 50px;
+  }
+}
+@media(max-width:992px){
+  section.sc-fodVxV.kDnYHV {
+    min-height: 650px;
+  }
+}
+@media(max-width:767px){
+  .fill-your-bucket-header .probsolve_text_btn_group{
+    margin-bottom:15px !important;
+  }
+  .fill-your-bucket-header {
+    display: block;
+  }
+  .block-2{
+    width: 110px;
+    position: absolute;
+    right: 0;
+    z-index: 9;
+  }
+  .fill-your-tree {
+    padding-left: 0px;
+  }
+  .fill-time{
+    margin-bottom: 0;
+    margin-top:5px !important
+  }
+  .fill-tree-cricle .fill-tree {
+    height: 110px;
+    width: 110px;
+    /* padding: 20px; */
+  }
+  .fill-tree-cricle .small_bucket::before {
+    width: 30px;
+    height: 30px;
+    bottom: 4px;
+    left: 0px;
+  }
+  .fill-tree-counter {
+    width: 17px;
+    height: 17px;
+    font-size: 10px;
+    bottom: 0px;
+    left: 23px;
+  }
+  .fill-your-bucket-header {
+    position: relative;
+    margin-bottom: 75px;
+  }
+}
+.reminder_main.tool-card-reminder{
+  overflow: visible;
+  max-width: 400px;
+  right: 10px;
+  bottom:10px;
+  border-radius: 30px;
+}
+@media(max-width:1366px){
+  .reminder_main.tool-card-reminder{
+    border-radius: 20px;
+  }
+}
+@media(max-width:360px){
+  .reminder_main.tool-card-reminder{
+    max-width: 320px;
+  } 
+}
+.tool-card-reminder .popup_card_reminder{
+  overflow-y: auto;
+  height: 300px;
+  padding: 10px;
+}
+.tool-card-reminder .reminder-text{
+  font-size: 18.5px;
+  line-height: 25px;
+}
+.tool-card-reminder  .remainder_maion_text{
+  margin-bottom: 25px;
+}
+@media(max-width:1200px){
+  .tool-card-reminder .reminder-text {
+    font-size: 14.5px;
+    line-height: 20px;
+  }
+}
+@media(max-width:992px){
+  .tool-card-reminder .reminder-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .tool-card-reminder  .remainder_maion_text{
+    margin-bottom: 20px;
+  }
+}
+@media(max-width:767px){
+  .tool-card-reminder  .remainder_maion_text{
+    margin-bottom: 12px;
+  }
+  .MuiPaper-root.MuiMenu-paper{
+    width: 250px !important;
+  }
+  .MuiPaper-root.MuiMenu-paper .MuiMenuItem-root{
+    word-wrap: break-word;
+    overflow: unset;
+    white-space: break-spaces;
+  }
+}
+#firstLottie{
+  -webkit-appearance: none;
+   -moz-appearance: none;
+        appearance: none;
+}
+
+.donate-text .popup_card_reminder{
+  padding: 0;
+}
+.donate-text::-webkit-scrollbar {
+  width: 7px;
+}
+.donate-text::-webkit-scrollbar-track {
+  background: transparent; 
+}
+.donate-text::-webkit-scrollbar-thumb {
+  background: #c7c7c7; 
+  border-radius: 10px;
+}
+.donate-text::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+.luke_card_wrapper{
+  position: relative;
+  width: 100%;
+}
+
+
+.hyperlink{
+  cursor: pointer;
+}
+@media(max-width:1024px){
+  .false.scroll_down {
+    bottom: 50px;
+ }
+}
+@media(max-width:992px){
+  .Carousel-next-41 {
+    right: -15px !important;
+  }
+  .tags .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded{
+    right: 10px !important;
+  }
+}
+
+@media(max-width:767px){
+  .hIXieV.hIXieV .MuiSlider-valueLabel > span span {
+    font-size: 15.5px !important;
+ }
+ .MuiDialog-paperScrollPaper {
+    max-height: 95% !important;
+ }  
+  .scroll_down {
+    width: 30px;
+    height: 60px;
+    left: 48%;
+  }
+  .scroll_down a span {
+    width: 14px;
+    height: 14px;
+    margin-left: 7px;
+  }
+  .false.scroll_down {
+    bottom: 30px;
+  }
+  .login_scroll_down {
+    bottom: 90px !important;
+  }
+}
+@media(max-width:425px){
+  .false.scroll_down {
+    bottom: 0px;
+  }
+}
+@media(max-width:390px){
+  .false.scroll_down {
+    bottom: -5px;
+  }
+}
+
+@media(max-width:320px){
+  .tags .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded{
+    margin-top:80px !important
+  }
+}
+.share-wrapper{
+  position: relative;
+}
+.new-share-card .MuiPaper-root{
+  box-shadow: none !important;
+}
+.share-card-wrapper{
+  padding: 10px 3px 10px 0;
+}
+p.Mui-error{
+  margin-top: 15px !important;
+  margin-left: 10px !important;
+  font-size: 25px !important;
+  font-weight: normal !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: 1.07 !important;
+}
+.fill-selection .MuiButton-label {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.tool-rating-space{
+  margin-bottom: 60px;
+}
+
+.right-tick{
+  width: 26px;
+  height:18px;
+  margin-top: 7px;
+  margin-left: 15px;
+}
+
+
+@media(max-width:1366px){
+  .fill-selection .MuiButton-label {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  p.Mui-error{
+    margin-top: 13px !important;
+    font-size: 22px !important;
+  }
+  .right-tick{
+    width: 22px;
+    height:14px;
+    margin-top: 4px;
+  }
+  .arrow-icon{
+    width:22px !important;
+    height:10px !important;
+    margin-top:2px;
+  }
+}
+@media(max-width:1200px){
+  .fill-selection .MuiButton-label {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  p.Mui-error{
+    margin-top: 10px !important;
+    font-size: 20px !important;
+  }
+  .right-tick{
+    margin-top: 7px;
+  }
+  
+  .arrow-icon{
+    width:15px !important;
+    height:10px !important;
+    margin-top:0px;
+  }
+}
+@media(max-width:992px){
+  .fill-selection .MuiButton-label {
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .tool-rating-space{
+    margin-bottom: 40px;
+  }
+  p.Mui-error{
+    font-size: 18px !important;
+  }
+  .fill-selection .rzGuX.MuiButtonBase-root.MuiButtonBase-root, .fill-selection .bVXBfJ.MuiButtonBase-root.MuiButtonBase-root{
+    max-width: 100%;
+  }
+  .add-space-top{
+    margin-top: 30px;
+  }
+  .full-width-fill .MuiGrid-grid-xs-6, .full-width-fill .MuiGrid-grid-md-6 {
+    max-width: 100% !important;
+    flex-basis: 100% !important;
+  }
+  .fill-selection{
+    text-align: center;
+  }
+  .arrow-icon{
+    width:13px !important;
+    height:10px !important;
+  }
+}
+@media(max-width:767px){
+  .fill-selection .MuiButton-label {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  p.Mui-error{
+    font-size: 16px !important;
+  }
+  .tool-rating-space{
+    margin-bottom: 20px;
+  }
+  .right-tick{
+    width: 16px;
+    height:12px;
+    margin-top: 7px;
+  }
+  .search-tools-slider{
+    overflow: unset !important;
+  }
+  .arrow-icon{
+    width:13px !important;
+    height:10px !important;
+    margin-top:0px;
+  }
+  .feedback-input-group{
+    padding-top: 12px !important;
+  }
+}
+
+@media(max-width:1700px){
+  .plan-again-popup .MuiDialog-paperWidthSm {
+    max-width: 80%;
+  }
+}
+@media(max-width:1024px){
+  .plan-again-popup .MuiDialog-paperWidthSm {
+    max-width: 90%;
+  }
+}
+@media(max-width:991px){
+  .plan-again-popup .MuiDialog-paperWidthSm {
+    max-width: 600px;
+  }
+  .add-more-space-top{
+    margin-top: 30px;
+  }
+}
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+.tool-que{
+  display: flex;
+}
+.add-top-space{
+  margin-top:30px;
+}
+.resize-none-width{
+  resize: vertical;
+}
+.multiple-select-btn .MuiButton-label{
+  
+}
+.content-center-select{
+  max-width:700px !important
+}
+.content-center-select .MuiButton-label{
+    justify-content: center !important;
+    text-align:center !important;
+}
+.collapse-space .MuiAccordion-root.Mui-expanded {
+  margin: 0 !important;
+}
+.collapse-space .MuiAccordionSummary-content.Mui-expanded {
+  margin: 12px 0 !important;
+}
+.feed-back-popup{
+  position: relative;
+}
+.feed-back-popup .feed-img{
+  position: absolute;
+  top: -40px;
+  right: -30px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.fill-your-bucket-header.handsight-bias{
+  margin-bottom: 0;
+}
+@media(max-width:1200px){
+  .feed-back-popup .feed-img{
+    top: -30px;
+    right: -25px;
+    width: 40px;
+    height: 40px;
+  }
+}
+@media(max-width:992px){
+  .feed-back-popup .feed-img{
+    top: -25px;
+    right: -20px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media(max-width:767px){
+  .feed-back-popup .feed-img{
+    top: 0px;
+    right: 0px;
+    width: 25px;
+    height: 25px;
+  }
+}
+.chips-menu{
+  font-size:16px !important;
+}

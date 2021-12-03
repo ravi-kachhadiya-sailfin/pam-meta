@@ -1,0 +1,19 @@
+# Ref: https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable
+# Add all gitlab secrets defined in a file, $1
+#
+# The file format is
+#   <sec_name> <sec_value> <sec_options> ....
+#
+# <sec_value> may be one of:
+#     vault://<path>
+#     file://<path>
+#     string_value
+# 
+# <sec_options>: 
+#     --form variable_type=[env_var|file]
+#     --form protected=[yes|no]
+#     --form masked=[yes|no]
+
+GCP_REGISTRY_USERNAME   _json_key
+GCP_REGISTRY_PASSWORD   vault://${SEC_PATH}/common/gcr-user
+GITLAB_DEPLOY_KEY       vault://secret/projects/som-tds-as/gitlab/tds-as/deploy.key

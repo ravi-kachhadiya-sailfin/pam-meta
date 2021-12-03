@@ -1,0 +1,39 @@
+{
+  "apiDefaultErrorMessages": {
+    "400": {
+      "INCORRECT_FORMAT": "The property '{{name}}' has an incorrect format '{{value}}'.",
+      "INVALID_VALUE": "The property '{{name}}' has an invalid value '{{value}}'."
+    },
+    "403 ": {
+      "INSUFFICIENT_PERMISSION": "User does not have permission to access the resource {{resource}} with name {{name}} and value {value}.",
+      "ACCESS_DENIED": "User does not have permission to access the system."
+    },
+    "404": {
+      "RESOURCE_NOT_FOUND": "Resource {{resource}} with name {{name}} and value {{value}} was not found.",
+      "RESOURCE_UNKNOWN": "Resource {{resource}} with name {{name}} and value {{value}} unknown."
+    },
+    "405": {
+      "POST_NOT_ALLOWED": "POST is not allowed.",
+      "PUT_NOT_ALLOWED": "PUT is not allowed.",
+      "PATCH_NOT_ALLOWED": "PATCH is not allowed.",
+      "DELETE_NOT_ALLOWED": "DELETE is not allowed."
+    },
+    "409": {
+      "RESOURCE_EXISTS": "Resource {{name}} with value {{value}} already exists."
+    },
+    "500": {
+      "SERVER_ERROR": "The server reported an internal error: '{{message}}'.",
+      "SERVICE_NOT_AVAILABLE": "Service {{service}} is not available due to '{{message}}'.",
+      "SYSTEM_NOT_AUTHORIZED": "No access to service {{service}} due to '{{message}}'."
+    },
+    "502": {
+      "BAD_GATEWAY": "The server returned a 502 Bad Gateway error."
+    },
+    "REQUEST_TIMEOUT": "The server did not respond. There may be a problem with your internet connection, or the server is temporarily unavailable.",
+    "REQUEST_ERROR": "There was an unknown error in the request to the server."
+  },
+  "accessDenied": {
+    "title": "Access Denied",
+    "message": "You do not have access to this page. If you require access to it, please contact "
+  }
+}
